@@ -1,0 +1,106 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: linear-gradient(45deg, #0a0a0a, #355e96); */
+}
+
+.calculator {
+  border: 1px solid #717377;
+  padding: 20px;
+  border-radius: 20px;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+  background: linear-gradient(45deg, #0a0a0a, #3a4452);
+  margin: 0 auto;
+}
+
+.heading {
+  color: #eb5b07;
+  text-align: center;
+  border-bottom: 2px solid #eb5b07;
+  border-bottom-width: 1px;
+}
+
+input[type="text"] {
+  width: 320px;
+  border: none;
+  padding: 24px;
+  margin: 10px;
+  background: transparent;
+  box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.2);
+  font-size: 40px;
+  text-align: right;
+  cursor: pointer;
+  color: #ffffff;
+  border-bottom: solid #42474d 1px;
+}
+
+.button {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 50%;
+  background: transparent;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+  border: 2px solid #42474d;
+}
+
+.button-operator {
+  background-color: #ff9800;
+}
+
+.button-equal{
+  background-color: rgb(194, 82, 41);
+   border: none;
+}
+.button-minus{
+  background-color: #42474d;
+}
+
+.button-minus:hover{
+  background-color:  transparent;
+}
+
+.button-clear {
+  width: 85%;
+  height: 10vh;
+  border-radius: 7px;
+  border-color: rgb(194, 82, 41);
+  margin-left: 30px;
+  background-color: transparent;
+}
+
+.button-clear:hover {
+  background-color: rgb(194, 82, 41);
+  color: white;
+}
+
+
